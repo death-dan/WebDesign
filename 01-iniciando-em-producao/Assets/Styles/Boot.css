@@ -4,6 +4,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    font-size: 1em;
 }
 
 :root {
@@ -100,6 +101,131 @@ iframe[style] {
     transition-duration: var(--seconds);
     -moz-transition-duration: var(--seconds);
     -webkit-transition-duration: var(--seconds);
+}
+
+/* 
+    BOTÔES
+*/
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #888;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #666;
+}
+
+/*TAMANHOS*/
+.btn-small {
+    font-size: 0.875em;
+}
+
+.btn-big {
+    font-size: 1.275em;
+}
+
+/*
+    CORES
+*/
+
+/* Green */
+.btn-green {
+    background-color: var(--green);
+}
+
+.btn-green:hover {
+    background-color: var(--green_h);
+}
+
+.btn-green-out {
+    color: var(--green);
+    border: 1px solid var(--green);
+    background: none;
+    text-shadow: none;
+}
+
+.btn-green-out:hover {
+    color: var(--green_h);
+    border: 1px solid var(--green_h);
+    background: none;
+    text-shadow: none;
+}
+
+/* Blue */
+.btn-blue {
+    background-color: var(--blue);
+}
+
+.btn-blue:hover {
+    background-color: var(--blue_h);
+}
+
+.btn-blue-out {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    background: none;
+    text-shadow: none;
+}
+
+.btn-blue-out:hover {
+    color: var(--blue_h);
+    border: 1px solid var(--blue_h);
+    background: none;
+    text-shadow: none;
+}
+
+/* Yellow */
+.btn-yellow {
+    background-color: var(--yellow);
+}
+
+.btn-yellow:hover {
+    background-color: var(--yellow_h);
+}
+
+.btn-yellow-out {
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    background: none;
+    text-shadow: none;
+}
+
+.btn-yellow-out:hover {
+    color: var(--yellow_h);
+    border: 1px solid var(--yellow_h);
+    background: none;
+    text-shadow: none;
+}
+
+/* Red */
+.btn-red{
+    background-color: var(--red);
+}
+
+.btn-red:hover {
+    background-color: var(--red_h);
+}
+
+.btn-red-out {
+    color: var(--blue);
+    border: 1px solid var(--red);
+    background: none;
+    text-shadow: none;
+}
+
+.btn-red-out:hover {
+    color: var(--blue_h);
+    border: 1px solid var(--red_h);
+    background: none;
+    text-shadow: none;
 }
 
 /*
