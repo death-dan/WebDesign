@@ -46,15 +46,27 @@
 /* 
   ICONES
 */
-  .icon-facebook:before {
-    content: "\61";
-  }
-  .icon-instagram:before {
-    content: "\62";
-  }
-  .icon-search:before {
-    content: "\63";
-  }
-  .icon-youtube:before {
-    content: "\64";
-  }
+.icon-facebook:before {
+  content: "\61";
+}
+.icon-instagram:before {
+  content: "\62";
+}
+.icon-search:before {
+  content: "\63";
+}
+.icon-youtube:before {
+  content: "\64";
+}
+.icon-success:before {
+  content: "\65";
+}
+.icon-alert:before {
+  content: "\66";
+}
+.icon-error:before {
+  content: "\67";
+}
+.icon-info:before {
+  content: "\68";
+}

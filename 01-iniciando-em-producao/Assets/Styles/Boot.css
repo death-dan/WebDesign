@@ -5,6 +5,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -104,6 +105,66 @@ iframe[style] {
 }
 
 /* 
+    TRIGGERS
+*/
+.trigger {
+    color: #fff;
+    font-size: 0.875em;
+    background-color: #888;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border: 1px solid #666;
+}
+
+.trigger-success {
+    background-color: var(--green);
+    border-color: var(--green_h);
+}
+
+.trigger-success-out {
+    color: var(--green);
+    border-color: var(--green);
+    background: none;
+    text-shadow: none;
+}
+
+.trigger-info {
+    background-color: var(--blue);
+    border-color: var(--blue_h);
+}
+
+.trigger-info-out {
+    color: var(--blue);
+    border-color: var(--blue);
+    background: none;
+    text-shadow: none;
+}
+
+.trigger-alert {
+    background-color: var(--yellow);
+    border-color: var(--yellow_h);
+}
+
+.trigger-alert-out {
+    color: var(--yellow);
+    border-color: var(--yellow);
+    background: none;
+    text-shadow: none;
+}
+
+.trigger-error {
+    background-color: var(--red);
+    border-color: var(--red_h);
+}
+
+.trigger-error-out {
+    color: var(--red);
+    border-color: var(--red);
+    background: none;
+    text-shadow: none;
+}
+
+/* 
     BOTÔES
 */
 .btn {
@@ -133,7 +194,7 @@ iframe[style] {
 }
 
 /*
-    CORES
+    CORES BTN
 */
 
 /* Green */
