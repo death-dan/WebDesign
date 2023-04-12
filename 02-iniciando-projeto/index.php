@@ -83,7 +83,7 @@
                     <p>Informe seu melhor e-mail logo abaixo e receba um cupom com 20% de desconto para primeira compra!</p>
                 </header>
                 <form action="#">
-                    <input type="email" name="email" placeholder="Informe seu e-mamil">
+                    <input class="radius" type="email" name="email" placeholder="Informe seu e-mamil">
                     <button class="btn radius transition icon-mail">Quero meu desconto!</button>
                 </form>
             </article>
@@ -125,9 +125,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div class="footer_bottom_social">
-                    <a href="#" title="" class="icon-facebook icon-notext"></a>
-                    <a href="#" title="" class="icon-instagram icon-notext"></a>
-                    <a href="#" title="" class="icon-youtube icon-notext"></a>
+                    <a href="#" title="" class="icon-facebook icon-notext transition"></a>
+                    <a href="#" title="" class="icon-instagram icon-notext transition"></a>
+                    <a href="#" title="" class="icon-youtube icon-notext transition"></a>
                 </div>
             </div>
         </div>
