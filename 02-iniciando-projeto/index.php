@@ -31,23 +31,23 @@
                     <a href="#" title="" class="icon-cart icon-notext transition"><span>3</span></a>
                     <div class="main_header_menu_user">
                         <a href="" title="" class="icon-user radius transition">Minha Conta</a>
-                        <ul class="radius">
-                            <li><a href="#" title="">Meus pedidos</a></li>
-                            <li><a href="#" title="">Meus dados</a></li>
-                            <li><a href="#" title="">Meus endesreços</a></li>
-                            <li><a href="#" title="">Sair</a></li>      
-                        </ul>
+                        <div class="radius nav">
+                            <a href="#" title="">Meus pedidos</a>
+                            <a href="#" title="">Meus dados</a>
+                            <a href="#" title="">Meus endesreços</a>
+                            <a href="#" title="">Sair</a>     
+                        </div>
                     </div> 
                 </div>
             </div>
             <nav class="main_header_nav">
-                <ul>
+                <ul class="menu">
                     <?php 
                         for($i = 1; $i < 5; $i++) {
                     ?>
                             <li>
                                 Departamento <?= $i;?>
-                                <ul>
+                                <ul class="sub_menu">
                                 <?php 
                                     for($ii = 1; $ii < 5; $ii++) {
                                 ?>
