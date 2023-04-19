@@ -25,6 +25,7 @@
 }
 
 img {
+    display: block;
     max-width: 100%;
 }
 
@@ -42,6 +43,10 @@ iframe[style] {
 
 ul {
     list-style: none;
+}
+
+.d_none {
+    display: none;
 }
 
 /*
