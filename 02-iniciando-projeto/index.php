@@ -89,8 +89,8 @@
                         <article class="pdt_gallery_item flex-2">
                             <a href="#" title=""><img src="Uploads/products/06.jpg" alt="" title=""></a>
                             <header class="pdt_gallery_item_desc">
-                                <h2 class="pdt_gallery_item_title">Calça Moletom Confort Mama Latina</h2>
-                                <div class="pdt_gallery_item_price">
+                                <h2 class="pdt_gallery_item_desc_title"><a href="#" class="transition" title="Calça Moletom Confort Mama Latina">Calça Moletom Confort Mama Latina</a></h2>
+                                <div class="pdt_gallery_item_desc_price">
                                     <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                 </div>
                                 <p>2x R$ 29,95</p>
@@ -106,8 +106,8 @@
                                 <article class="pdt_gallery_item flex-2">
                                     <a href="#" title=""><img src="Uploads/products/<?= str_pad($pdt, 2, 0, STR_PAD_LEFT); ?>.jpg" alt="" title=""></a>
                                     <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_title">Calça Moletom Confort Mama Latina</h2>
-                                        <div class="pdt_gallery_item_price">
+                                        <h2 class="pdt_gallery_item_desc_title"><a href="#" class="transition" title="Calça Moletom Confort Mama Latina">Calça Moletom Confort Mama Latina</a></h2>
+                                        <div class="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                         </div>
                                         <p>2x R$ 29,95</p>
@@ -131,8 +131,8 @@
                                 <article class="pdt_gallery_item flex-2">
                                     <a href="#" title=""><img src="Uploads/products/<?= str_pad($pdt, 2, 0, STR_PAD_LEFT); ?>.jpg" alt="" title=""></a>
                                     <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_title">Calça Moletom Confort Mama Latina</h2>
-                                        <div class="pdt_gallery_item_price">
+                                        <h2 class="pdt_gallery_item_desc_title"><a href="#" class="transition" title="Calça Moletom Confort Mama Latina">Calça Moletom Confort Mama Latina</a></h2>
+                                        <div class="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                         </div>
                                         <p>2x R$ 29,95</p>
