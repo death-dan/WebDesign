@@ -80,7 +80,7 @@
 
         <section class="pdt_gallery">
             <div class="container">
-                <header class="pdt_gallery_header">
+                <header class="main_content_header">
                     <h1>Ofertas da Semana: </h1>
                 </header>
 
@@ -228,6 +228,32 @@
                             </div>
                         </div> 
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog_gallery">
+            <div class="container">
+                <div class="main_content_header">
+                    <h1>Blog</h1>
+                </div>
+
+                <div class="flex">
+                    <?php
+                        for ($b = 1; $b < 7; $b++) {
+                    ?>
+                            <article class="blog_gallery_item transition flex-3">
+                                <a href="#" title="">
+                                    <img src="Uploads/blog/<?= str_pad($b, 2, 0, STR_PAD_LEFT); ?>.jpg" alt="">
+                                </a>
+
+                                <header>
+                                    <h2><a class="transition" href="#" title="">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</a></h2>
+                                </header>
+                            </article>
+                    <?php
+                        }
+                    ?>
                 </div>
             </div>
         </section>
