@@ -67,11 +67,10 @@
 
     <main class="main_content">
         <div class="main_slide j_slide">
-            <a href="#" title="" class="j_slide_item d_none"><img src="Uploads/featured-02.jpg" alt="" title=""></a>
             <?php 
                 for ($i = 1; $i < 4; $i++) {
             ?>
-                    <a href="#" title="" class="j_slide_item"><img src=<?= "Uploads/featured-0{$i}.jpg"; ?> alt="" title=""></a>
+                    <a href="#" title="" class="j_slide_item"><img src="Uploads/featured-<?= str_pad($i, 2, 0, STR_PAD_LEFT); ?>.jpg" alt="" title=""></a>
             <?php
                 }
             ?>
@@ -315,6 +314,9 @@
                 </div>
             </div>
         </div>
-    </footer>   
+    </footer> 
+    
+    <script src="Assets/Js/jquery.js"></script>
+    <script src="Assets/Js/script.js"></script>
 </body>
 </html>
