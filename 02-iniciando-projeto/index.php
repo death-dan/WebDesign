@@ -18,9 +18,11 @@
     <header class="main_header">
         <div class="container">
             <div class="main_header_content">
-                <a href="#" title="WdpShoes | Home">
-                    <img src="Themes/WdpShoes/Images/wdpshoes_logo_white.png" alt="" title="">
-                </a>
+                <div class="logo">
+                    <a href="#" title="WdpShoes | Home">
+                        <img src="Themes/WdpShoes/Images/wdpshoes_logo_white.png" alt="" title="">
+                    </a>
+                </div> 
                 <div class="main_header_search">
                     <form action="" method="post" class="radius">
                         <input type="text" name="" placeholder="Pesquisar na WdpShoes">
@@ -288,7 +290,7 @@
                     }
                 ?>
 
-                <nav class="flex-4">
+                <nav class="pays flex-4">
                     <h4>Pagamento Seguro:</h4>
                     <ul class="footer_optin_nav_pays flex">
                         <li class="flex-4"><img src="Assets/Cards/mastercard.png" alt="" title=""></li>
