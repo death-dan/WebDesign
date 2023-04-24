@@ -249,7 +249,7 @@
                                 </a>
 
                                 <header>
-                                    <h2><a class="transition" href="#" title="">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</a></h2>
+                                    <h2><a class="transition" href="#" title="">Lorem ipsum dolor sit amet consectetur.</a></h2>
                                 </header>
                             </article>
                     <?php
