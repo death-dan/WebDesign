@@ -31,9 +31,28 @@
 </head>
 <body>
     <?php
-        require "./Themes/WdpShoes/header.php";
-        require "./Themes/WdpShoes/index.php";
-        require "./Themes/WdpShoes/footer.php";
+        
+        //HEADER
+        require "{$configThemePath}/header.php";
+
+        //QUERY STRING
+        if (file_exists("{$configThemePath}/{$configUrl[0]}.php") && !is_dir("{$configThemePath}/{$configUrl[0]}.php")) {
+            //theme root
+            require "{$configThemePath}/{$configUrl[0]}.php";
+        } elseif (!empty($configUrl[1]) && file_exists("{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php") && !is_dir("{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php")) {
+            //theme folder
+            require "{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php";
+        } else {
+            //error 404
+            if (file_exists("{$configThemePath}/404.php") &&  !is_dir("{$configThemePath}/{$configUrl[0]}.php")) {
+                require "{$configThemePath}/{$configUrl[0]}.php";
+            } else {
+                echo "<div class='container'><div class='trigger trigger-error icon-error radius'>Desculpe mas a página que você tento acessar não existe ou foi removida!</div></div>";
+            }
+        }
+        
+        //FOOTER
+        require "{$configThemePath}/footer.php";
     ?>
 </body>
 </html>
