@@ -21,7 +21,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= $configBase ;?>/Assets/Styles/Icons.css">
-    <link href="https://file.myfontastic.com/d3XTWRRNXU2GYaFhhAUY4W/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= $configBase ;?>/Assets/Styles/Boot.css">
     <link rel="stylesheet" href="<?= $configThemeLink ;?>/Style.css">
     <link rel="shortcut icon" href="<?= $configThemeLink ;?>/Images/favicon.png">
@@ -34,27 +33,23 @@
         
         //HEADER
         require "{$configThemePath}/header.php";
-        require "{$configThemePath}/index.php";
 
-        if (10 == 20) {
-            //QUERY STRING
-            if (file_exists("{$configThemePath}/{$configUrl[0]}.php") && !is_dir("{$configThemePath}/{$configUrl[0]}.php")) {
-                //theme root
-                require "{$configThemePath}/{$configUrl[0]}.php";
-            } elseif (!empty($configUrl[1]) && file_exists("{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php") && !is_dir("{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php")) {
-                //theme folder
-                require "{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php";
+        //QUERY STRING
+        if (file_exists("{$configThemePath}/{$configUrl[0]}.php") && !is_dir("{$configThemePath}/{$configUrl[0]}.php")) {
+            //theme root
+            require "{$configThemePath}/{$configUrl[0]}.php";
+        } elseif (!empty($configUrl[1]) && file_exists("{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php") && !is_dir("{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php")) {
+            //theme folder
+            require "{$configThemePath}/{$configUrl[0]}/{$configUrl[1]}.php";
+        } else {
+            //error 404
+            if (file_exists("{$configThemePath}/404.php") &&  !is_dir("{$configThemePath}/404.php")) {
+                require "{$configThemePath}/404.php";
             } else {
-                //error 404
-                if (file_exists("{$configThemePath}/404.php") &&  !is_dir("{$configThemePath}/{$configUrl[0]}.php")) {
-                    require "{$configThemePath}/{$configUrl[0]}.php";
-                } else {
-                    echo "<div class='container'><div class='trigger trigger-error icon-error radius'>Desculpe mas a página que você tento acessar não existe ou foi removida!</div></div>";
-                }
+                echo "<div class='container'><div class='trigger trigger-error icon-error radius'>Desculpe mas a página que você tento acessar não existe ou foi removida!</div></div>";
             }
         }
-        
-        
+
         //FOOTER
         require "{$configThemePath}/footer.php";
     ?>

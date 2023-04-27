@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "teste";
-    src:url("fonts/teste.eot");
-    src:url("fonts/teste.eot?#iefix") format("embedded-opentype"),
-      url("fonts/teste.woff") format("woff"),
-      url("fonts/teste.ttf") format("truetype"),
-      url("fonts/teste.svg#teste") format("svg");
-    font-weight: normal;
-    font-style: normal;
-  
-  }
+  font-family: "wdpshoes";
+  src:url("fonts/wdpshoes.eot");
+  src:url("fonts/wdpshoes.eot?#iefix") format("embedded-opentype"),
+    url("fonts/wdpshoes.woff") format("woff"),
+    url("fonts/wdpshoes.ttf") format("truetype"),
+    url("fonts/wdpshoes.svg#wdpshoes") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
   
   [data-icon]:before {
-    font-family: "teste" !important;
+    font-family: "wdpshoes" !important;
     content: attr(data-icon);
     font-style: normal !important;
     font-weight: normal !important;
@@ -24,7 +24,7 @@
   
   [class^="icon-"]:before,
   [class*=" icon-"]:before {
-    font-family: "teste" !important;
+    font-family: "wdpshoes" !important;
     font-style: normal !important;
     font-weight: normal !important;
     font-variant: normal !important;
@@ -69,4 +69,28 @@
 }
 .icon-info:before {
   content: "\68";
+}
+.icon-menu:before {
+  content: "\69";
+}
+.icon-cart:before {
+  content: "\6a";
+}
+.icon-user:before {
+  content: "\6b";
+}
+.icon-mail:before {
+  content: "\6c";
+}
+.icon-broken:before {
+  content: "\6d";
+}
+.icon-star-e:before {
+  content: "\6e";
+}
+.icon-minus:before {
+  content: "\6f";
+}
+.icon-plus:before {
+  content: "\70";
 }
