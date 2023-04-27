@@ -2,8 +2,8 @@
     <div class="container">
         <div class="main_header_content">
             <div class="logo">
-                <a href="#" title="WdpShoes | Home">
-                    <img src="Themes/WdpShoes/Images/wdpshoes_logo_white.png" alt="" title="">
+                <a href="<?= $configBase ;?>" title="WdpShoes | Home">
+                    <img src="<?= $configThemeLink ;?>/Images/wdpshoes_logo_white.png" alt="" title="">
                 </a>
             </div> 
             <div class="main_header_search">
@@ -15,12 +15,12 @@
             <div class="main_header_menu">
                 <a href="#" title="" class="icon-cart icon-notext transition"><span>3</span></a>
                 <div class="main_header_menu_user">
-                    <a href="" title="" class="icon-user radius transition">Minha Conta</a>
+                    <a href="<?= $configBase ;?>/conta" title="" class="icon-user radius transition">Minha Conta</a>
                     <div class="radius nav">
-                        <a href="#" title="">Meus pedidos</a>
-                        <a href="#" title="">Meus dados</a>
-                        <a href="#" title="">Meus endesreços</a>
-                        <a href="#" title="">Sair</a>     
+                        <a href="<?= $configBase ;?>/conta" title="">Meus pedidos</a>
+                        <a href="<?= $configBase ;?>/conta/cadastro" title="">Meus dados</a>
+                        <a href="<?= $configBase ;?>/conta/enderecos" title="">Meus endesreços</a>
+                        <a href="<?= $configBase ;?>/conta/sair" title="">Sair</a>     
                     </div>
                 </div> 
             </div>
@@ -36,7 +36,7 @@
                             <?php 
                                 for($ii = 1; $ii < 5; $ii++) {
                             ?>
-                                    <li><a href="#" title="">Categoria <?= "{$i}/{$ii}";?></a>
+                                    <li><a href="<?= $configBase ;?>/categoria" title="">Categoria <?= "{$i}/{$ii}";?></a>
                             <?php        
                                 }
                             ?>

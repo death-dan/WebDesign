@@ -19,7 +19,7 @@
                         <?php
                             for($mm = 1; $mm < 6; $mm++) {
                         ?>
-                            <a href="#" title="">Link de Rodapé <?= "{$m}/{$mm}";?></a>
+                            <a href="<?= $configBase ;?>" title="">Link de Rodapé <?= "{$m}/{$mm}";?></a>
                         <?php
                             }
                         ?>
@@ -31,12 +31,12 @@
             <nav class="pays flex-4">
                 <h4>Pagamento Seguro:</h4>
                 <ul class="footer_optin_nav_pays flex">
-                    <li class="flex-4"><img src="Assets/Cards/mastercard.png" alt="" title=""></li>
-                    <li class="flex-4"><img src="Assets/Cards/visa.png" alt="" title=""></li>
-                    <li class="flex-4"><img src="Assets/Cards/amex.png" alt="" title=""></li>
-                    <li class="flex-4"><img src="Assets/Cards/aura.png" alt="" title=""></li>
-                    <li class="flex-4"><img src="Assets/Cards/dinners.png" alt="" title=""></li>
-                    <li class="flex-4"><img src="Assets/Cards/discover.png" alt="" title=""></li>
+                    <li class="flex-4"><img src="<?= $configBase ;?>/Assets/Cards/mastercard.png" alt="" title=""></li>
+                    <li class="flex-4"><img src="<?= $configBase ;?>/Assets/Cards/visa.png" alt="" title=""></li>
+                    <li class="flex-4"><img src="<?= $configBase ;?>/Assets/Cards/amex.png" alt="" title=""></li>
+                    <li class="flex-4"><img src="<?= $configBase ;?>/Assets/Cards/aura.png" alt="" title=""></li>
+                    <li class="flex-4"><img src="<?= $configBase ;?>/Assets/Cards/dinners.png" alt="" title=""></li>
+                    <li class="flex-4"><img src="<?= $configBase ;?>/Assets/Cards/discover.png" alt="" title=""></li>
                 </ul>   
             </nav>
         </div>
@@ -44,7 +44,7 @@
     <div class="footer_bottom">
         <div class="container flex">
             <div class="footer_bottom_copy">
-                <img src="Themes/WdpShoes/Images/wdpshoes_logo_black.png" alt="WdpShoes" title="WdpShoes">
+                <img src="<?= $configThemeLink ;?>/Images/wdpshoes_logo_black.png" alt="WdpShoes" title="WdpShoes">
                 <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="footer_bottom_social">

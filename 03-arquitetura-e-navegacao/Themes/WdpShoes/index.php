@@ -3,7 +3,7 @@
         <?php 
             for ($i = 1; $i < 4; $i++) {
         ?>
-                <a href="#" title="" class="j_slide_item"><img src="Uploads/featured-<?= str_pad($i, 2, 0, STR_PAD_LEFT); ?>.jpg" alt="" title=""></a>
+                <a href="<?= $configBase ;?>/produto" title="" class="j_slide_item"><img src="<?= $configBase ;?>/Uploads/featured-<?= str_pad($i, 2, 0, STR_PAD_LEFT); ?>.jpg" alt="" title=""></a>
         <?php
             }
         ?>
@@ -35,7 +35,9 @@
             </div>    
 
             <div class="pdt_gallery_normalize">
-                <img src="Uploads/featured-01.jpg" alt="" class="pdt_gallery_item pdt_banner">
+                <a href="<?= $configBase ;?>/produto">
+                    <img src="<?= $configBase ;?>/Uploads/featured-01.jpg" alt="" class="pdt_gallery_item pdt_banner">
+                </a>
             </div>
 
             <div class="pdt_gallery_normalize flex">
