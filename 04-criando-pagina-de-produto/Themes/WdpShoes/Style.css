@@ -229,7 +229,8 @@
     margin-bottom: 20px;
 }
 
-.main_content_header > h1 {
+.main_content_header > h1,
+.titles {
     font-size: 2em;
     font-weight: bold;
     color: #888;
@@ -684,6 +685,43 @@
 .product_checkout_related div a:hover,
 .product_checkout_related div a.active {
     border-color: var(--themeColorA);
+}
+
+.product_description {
+    background-color: #fbfbfb;
+}
+.product_description .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_description_header {
+    flex-basis: 65%;
+    color: #666;
+}
+
+.description_header_tag {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    color: #777;
+}
+
+.product_description_header h4 {
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.product_description_header p {
+    margin: 20px 0 30px 0;
+    font-size: 0.875em;
+}
+
+.product_description_thumb {
+    flex-basis: 35%;
+    padding-left: 40px;
 }
 
 /* MEDIAS */
