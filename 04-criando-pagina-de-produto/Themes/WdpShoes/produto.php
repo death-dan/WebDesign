@@ -1,4 +1,4 @@
-<div class="main_content">
+<main class="main_content">
     <div class="container">
         <article class="main_product">
             <div class="product_gallery">
@@ -21,7 +21,7 @@
             <div class="product_checkout">
                 <p class="product_checkout_stars"><?= str_repeat("<span class='icon-star-e icon-notext'></span>", 5)?></p>
                 <h1 class="product_checkout_title">Top Gonew c/ Bojo Removível Mármore Tule Média Sustentação - Estampado</h1>
-                <p class="product_checkout_headline">Exercite-se com estilo usando o Top Gonew Mármore Detalhe Tule! Trazendo um design moderno e uma estampa exclusiva... <b class="j_anchor" data-anchor="product_description">ver mais</b></p>
+                <p class="product_checkout_headline">Exercite-se com estilo usando o Top Gonew Mármore Detalhe Tule! Trazendo um design moderno e uma estampa exclusiva... <b class="j_anchor" data-anchor=".product_description">ver mais</b></p>
                 <p class="product_checkout_price">R$ 59,00 <span>R$ 79,00</span></p>
                 <p class="product_checkout_economy">Economia de R$ 20,00 (25%)</p>
                 <p class="product_checkout_parcels">Em até 4x de 14,75</p>
@@ -53,4 +53,9 @@
             </div>
         </article>
     </div>
-</div> 
+    <div class="product_description">
+        <div class="container">
+            <h1>ANCHOR</h1>
+        </div>
+    </div>
+</main> 
