@@ -41,7 +41,7 @@
                         <h3>Menu de Filtro:</h3>
                         <a href="#" title="" class="radius transition">Filtro (tamanho/cor/etc)</a>
                         <a href="#" title="" class="radius transition">Filtro (tamanho/cor/etc)</a>
-                        <a href="#" title="" class="radius transition">Filtro (tamanho/cor/etc)</a>
+                        <a href="#" title="" class="radius transition active">Filtro (tamanho/cor/etc)</a>
                         <a href="#" title="" class="radius transition">Filtro (tamanho/cor/etc)</a>
                         <a href="#" title="" class="radius transition">Filtro (tamanho/cor/etc)</a>
                         <a href="#" title="" class="radius transition">Filtro (tamanho/cor/etc)</a>
