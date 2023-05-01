@@ -1,4 +1,6 @@
 <?php
+    ob_start();
+
     define("BASE", "https://localhost/GitEssentials/WebDesign/05-pagina-categoria-e-pesquisa");
     define("THEME", "WdpShoes");
     define("THEME_PATH", __DIR__ . "/Themes/" . THEME);
@@ -12,7 +14,7 @@
     $configSiteName = "WdpShoes";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,6 +32,12 @@
 </head>
 <body>
     <?php
+        //SEARCH
+        $searchForm = strip_tags(trim(filter_input(INPUT_POST, "s", FILTER_DEFAULT)));
+        if (!empty($searchForm)) {
+            header("Location: {$configBase}/pesquisa/{$searchForm}");
+            exit;
+        }
         
         //HEADER
         require "{$configThemePath}/header.php";
@@ -55,3 +63,4 @@
     ?>
 </body>
 </html>
+<?php ob_end_flush(); ?>

@@ -8,7 +8,7 @@
             </div> 
             <div class="main_header_search">
                 <form action="" method="post" class="radius">
-                    <input type="text" name="" placeholder="Pesquisar na WdpShoes">
+                    <input type="text" name="s" placeholder="Pesquisar na WdpShoes">
                     <button class="icon-search icon-notext transition"></button>
                 </form>
             </div>
