@@ -460,6 +460,11 @@
     border-color: var(--themeColorA_h);
 }
 
+.blog_gallery_item img {
+    width: 100%;
+}
+
+
 .blog_gallery_item header {
     position: absolute;
     left: 0;
@@ -886,6 +891,7 @@
     }
 
     /* MAIN BLOG */
+    .main_blog_gallery .blog_gallery_item,
     .blog_gallery .blog_gallery_item {
         flex-basis: calc(50% - 40px);
         margin: 20px;
@@ -993,6 +999,7 @@
     }
 
     /* BLOG GALLERY */
+    .main_blog_gallery .blog_gallery_item,
     .blog_gallery .blog_gallery_item {
         flex-basis: 100%;
         margin-top: 20px;
