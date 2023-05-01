@@ -13,7 +13,7 @@
                 </form>
             </div>
             <div class="main_header_menu">
-                <a href="#" title="" class="icon-cart icon-notext transition"><span>3</span></a>
+                <a href="<?= $configBase;?>/checkout" title="" class="icon-cart icon-notext transition"><span>3</span></a>
                 <div class="main_header_menu_user">
                     <a href="<?= $configBase ;?>/conta" title="" class="icon-user radius transition">Minha Conta</a>
                     <div class="radius nav">

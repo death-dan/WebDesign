@@ -26,7 +26,7 @@
                 <p class="product_checkout_economy">Economia de R$ 20,00 (25%)</p>
                 <p class="product_checkout_parcels">Em até 4x de 14,75</p>
 
-                <form class="product_checkout_cart">
+                <form class="product_checkout_cart" action="<?= $configBase;?>/checkout">
                     <h2>Selecione o <b>tamanho</b></h2>
                     <span class="radius transition">P</span>
                     <span class="radius transition">M</span>
@@ -81,7 +81,7 @@
                     Ele é confeccionado em tecido elástico, e conta com detalhe em tule na parte da frente, que deixa o visual da peça 
                     sensual e muito mais respirável. Não perca tempo e compre já o seu Top Gonew Mármore Detalhe Tule Média Sustentação!
                 </p>
-                <form class="product_checkout_cart">
+                <form class="product_checkout_cart" action="<?= $configBase;?>/checkout">
                     <h2>Selecione o <b>tamanho</b></h2>
                     <span class="radius transition">P</span>
                     <span class="radius transition">M</span>
