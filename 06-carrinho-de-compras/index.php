@@ -29,6 +29,7 @@
 
     <script src="<?= $configBase ;?>/Assets/Js/jquery.js"></script>
     <script src="<?= $configBase ;?>/Assets/Js/script.js"></script>
+    <script src="<?= $configThemeLink ;?>/Script.js"></script>
 </head>
 <body>
     <?php
