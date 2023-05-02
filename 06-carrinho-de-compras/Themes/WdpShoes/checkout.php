@@ -1,12 +1,14 @@
 <article class="main_content">
-    <div class="container main-checkout">
+    <div class="container main_checkout">
         <header class="checkout_header">
-            <h1><?= $configSiteName; ?></h1>    
-            <p>3 produtos no carrinho</p>
+            <div>
+                <h1><?= $configSiteName; ?></h1>    
+                <p>3 produtos no carrinho</p>
+            </div>
+            <span class="btn radius transition icon-car">Finalizar compra</span>
         </header>
-        <span class="btn radius transition icon-car">Finalizar compra</span>
 
-        <section class="checkout_products">
+        <section class="checkout_products radius">
             <?php
                 for ($checkout = 1; $checkout < 4; $checkout++) {
             ?>  
@@ -16,9 +18,9 @@
                         </div>
                         <div class="checkout_products_item_desc">
                             <h1>Calça Moletom Confort Mama Latina</h1>
-                            <p class="checkout_products_item_price">R$ 59,00 <span>R$ 79,00</span></p>
+                            <p class="checkout_products_item_desc_price">R$ 59,00 <span>R$ 79,00</span></p>
                             <p>Tamanho G | Cor: Preto</p>
-                            <p class="checkout_products_item_qtd">
+                            <p class="checkout_products_item_desc_qtd">
                                 Quantidade: 1
                                 <span class="icon-plus icon-notext radius transition"></span>
                                 <span class="icon-minus icon-notext radius transition"></span>
