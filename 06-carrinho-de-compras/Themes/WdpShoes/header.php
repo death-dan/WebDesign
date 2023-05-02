@@ -20,7 +20,7 @@
                         <a href="<?= $configBase ;?>/conta" title="">Meus pedidos</a>
                         <a href="<?= $configBase ;?>/conta/cadastro" title="">Meus dados</a>
                         <a href="<?= $configBase ;?>/conta/enderecos" title="">Meus endesreços</a>
-                        <a href="<?= $configBase ;?>/conta/sair" title="">Sair</a>     
+                        <a href="<?= $configBase ;?>" title="">Sair</a>     
                     </div>
                 </div> 
             </div>
