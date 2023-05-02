@@ -21,11 +21,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WdpShoes | Home</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?= $configBase ;?>/Assets/Styles/Icons.css">
-    <link rel="stylesheet" href="<?= $configBase ;?>/Assets/Styles/Boot.css">
-    <link rel="stylesheet" href="<?= $configThemeLink ;?>/Style.css">
-    <link rel="shortcut icon" href="<?= $configThemeLink ;?>/Images/favicon.png">
+    <link href="<?= $configBase ;?>" rel="base" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="<?= $configBase ;?>/Assets/Styles/Icons.css" />
+    <link rel="stylesheet" href="<?= $configBase ;?>/Assets/Styles/Boot.css" />
+    <link rel="stylesheet" href="<?= $configThemeLink ;?>/Style.css" />
+    <link rel="shortcut icon" href="<?= $configThemeLink ;?>/Images/favicon.png" />
 
     <script src="<?= $configBase ;?>/Assets/Js/jquery.js"></script>
     <script src="<?= $configBase ;?>/Assets/Js/script.js"></script>

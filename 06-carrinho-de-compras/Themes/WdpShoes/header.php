@@ -49,18 +49,3 @@
         </nav>    
     </div>
 </header>
-
-<div class="theme_login">
-    <div class="theme_login_box radius">
-        <header>
-            <h1>Fazer Login</h1>
-            <p>Informe seu nome e e-mail para fazer login e acessar seus pedidos.</p>
-        </header>
-        <form>
-            <input class="radius" type="email" placeholder="E-mail:">
-            <input class="radius" type="password" placeholder="Senha:">
-            <a href="<?= $configBase; ?>/conta" class="btn radius transition icon-success" title="Minha Conta">Fazer Login</a>
-        </form>
-        <a href="#" title="Recuperar Senha" class="theme_login_box_recover transition icon-alert">Esqueci minha senha</a>
-    </div>
-</div>
