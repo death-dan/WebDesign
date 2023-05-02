@@ -1,10 +1,10 @@
 <main class="main_content">
     <div class="container main_account">
         <nav class="account_sidebar">
-            <a href="<?= $configBase ;?>/conta" title="">Meus pedidos</a>
-            <a href="<?= $configBase ;?>/conta/cadastro" title="">Meus dados</a>
-            <a href="<?= $configBase ;?>/conta/enderecos" title="">Meus endesreços</a>
-            <a href="<?= $configBase ;?>" title="">Sair</a>   
+            <a class="radius transition active" href="<?= $configBase ;?>/conta" title="">Meus pedidos</a>
+            <a class="radius transition" href="<?= $configBase ;?>/conta/cadastro" title="">Meus dados</a>
+            <a class="radius transition" href="<?= $configBase ;?>/conta/enderecos" title="">Meus endesreços</a>
+            <a class="radius transition" href="<?= $configBase ;?>" title="">Sair</a>   
         </nav>
 
         <div class="account_content">

@@ -1060,6 +1060,93 @@
     color: var(--themeColorA);
 }
 
+/* MAIN ACCOUNT */
+.main_account {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account_sidebar {
+    flex-basis: 20%;
+}
+
+.account_sidebar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    font-size: 0.9em;
+    text-transform: underline;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.account_sidebar a:hover,
+.account_sidebar a.active {
+    background-color: var(--themeColorA);
+    color: #fff;
+}
+
+.account_content {
+    flex-basis: 80%;
+    padding-left: 40px;
+}
+
+.account_content_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.account_content_item_header {
+    flex-basis: 30%;
+}
+
+.account_content_item_header p {
+    color: #777;
+}
+
+.account_content_item_header h1 {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.account_content_item_pdts {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+.account_content_item_pdts li {
+    flex-basis: 25%;
+}
+
+.account_content_item_pdts li img {
+    width: 100%;
+}
+
+.account_content_item_desc {
+    flex-basis: 40%;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.account_content_item_desc a {
+    display: block;
+    color: var(--themeColorA);
+    margin-top: 5px;
+}
+
+.account_content_item_desc a:hover {
+    color: var(--themeColorA_h);
+} 
+
 /* MEDIAS */
 @media(max-width: 62em) {
     .category_products_content .pdt_gallery_item {
@@ -1184,6 +1271,16 @@
     .category_sidebar {
         display: none;
     }
+
+    /* MAIN ACCOUNT */ 
+    .account_sidebar {
+        display: none;
+    }
+
+    .account_content {
+        flex-basis: 100%;
+        padding: 0;
+    }
 }
 
 @media(max-width: 42em) {
@@ -1192,10 +1289,24 @@
         margin: 20px;
     }
 
+    /* PDT GALLERY */
     .pdt_gallery .pdt_gallery_item,
     .pdt_gallery_normalize .pdt_gallery_item {
         flex-basis: calc(100% - 40px);
         margin: 20px;
+    }
+
+    /* MAIN ACCOUNT */
+    .account_content_item_header,
+    .account_content_item_pdts,
+    .account_content_item_desc  {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    .account_content_item_pdts li {
+        flex-basis: 20%;
     }
 }
 
